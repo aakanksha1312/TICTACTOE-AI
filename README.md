@@ -1,24 +1,48 @@
-# TICTACTOE-AI
-Tic-Tac-Toe game with AI using Minimax algorithm
-# Tic-Tac-Toe AI
+Tic-Tac-Toe AI
+A simple Python-based Tic-Tac-Toe game where you play against an AI that uses the Minimax algorithm with alpha-beta pruning.
 
-This is a simple Tic-Tac-Toe game where you play against an AI using the Minimax algorithm. The AI makes optimal moves to try and win, and you can test your strategy by playing against it!
+ Features
+Play as X, against an AI that plays as O
 
-## Features:
-- Play against the AI.
-- AI uses the **Minimax Algorithm** to make the best moves.
-- The game ends when a player wins or the board is full (draw).
+AI uses Minimax Algorithm to make optimal moves
 
-## How to Play:
-1. You are `X` and the AI is `O`.
-2. The game will ask for your move (row and column in 0-based index).
-3. After your move, the AI will automatically take its turn.
-4. The game continues until either:
-   - **You win**, 
-   - **AI wins**, 
-   - or it's a **draw**.
+Ends with Win / Lose / Draw outcome
 
-## Installation:
-1. Clone this repository to your local machine using Git:
-   ```bash
-   git clone https://github.com/yourusername/tic-tac-toe-ai.git
+Input handled via command line (row, column format)
+
+How to Play
+Run the notebook or script in Jupyter Notebook or any Python IDE.
+
+Enter your move when prompted (row and column as 0 1, 2 2, etc.)
+
+The AI will respond with its optimal move.
+
+Game continues until:
+
+✅ You win
+
+❌ AI wins
+
+It's a draw
+
+ Installation
+Clone the repository to your local machine:
+
+bash
+Copy
+Edit
+git clone https://github.com/aakanksha1312/TICTACTOE-AI.git
+cd TICTACTOE-AI
+Open the notebook TICTACTOE.ipynb using Jupyter Notebook or Anaconda Navigator.
+
+ Tech Stack
+Python 3
+
+Jupyter Notebook
+
+Minimax Algorithm (with alpha-beta pruning)
+
+🙋‍♀️ Author
+Aakanksha
+GitHub
+
